@@ -1,0 +1,101 @@
+.levels{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url("/src/images/bgimage1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+.imgs{
+    background-image: url("/src/images/image2.png");
+    height: 110%;
+    width: 90%; 
+    margin-left: -250px;
+    margin-top: 100px;
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+
+
+#levelForm {
+    background-color:#d3d3d3;
+    max-width: 400px; 
+    padding: 20px; 
+    width: 100%; 
+    height: 60%; 
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+#d {
+    font-size: 40px;
+    font-weight: bold;
+    color:  #064413;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  #e {
+    font-size: 30px;
+    font-weight: bold;
+    color: #064413;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  #c {
+    font-size: 40px;
+    font-weight: bold;
+    color: #8b12d1;
+    text-align: center;
+    padding: px;
+    margin-bottom: -10px; /* Adjust the margin to move up */
+  }
+  
+  #Easy-btn,
+  #Medium-btn,
+  #Hard-btn {
+    height: 50px;
+    width: 40%;
+    background-color: #224f11;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 15px 0 10px 0;
+    transition: 0.5;
+    cursor: pointer;
+    position: absolute;
+    bottom: 185px;
+    left: 120px;
+  }
+  
+  #Easy-btn {
+      bottom: 185px;
+  }
+  
+  #Medium-btn {
+      bottom: 105px;
+  }
+  
+  
+  
+  
+  #Easy-btn:hover {
+    background-color: #058817;  
+}
+
+#Medium-btn:hover {
+    background-color: #058817;  
+}
